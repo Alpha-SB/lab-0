@@ -128,6 +128,7 @@ class Interactions
     public:
         int damage(int);
         int remaninghealth(int,int);
+        string log(int,int);
 };
 int damage(int attack)
 {   int damagemulti,damage;
